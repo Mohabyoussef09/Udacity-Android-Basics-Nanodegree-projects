@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.educationalapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Quiz"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/quiz_name" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear_layout_1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/question_txt"
+            android:text="Question" />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/group_id_part1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Answer 1"
+            android:id="@+id/choice1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Answer 2"
+            android:id="@+id/choice2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Answer 3"
+            android:id="@+id/choice3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Answer 4"
+            android:id="@+id/choice4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+
+</RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@id/linear_layout_1">
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="next_btn"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/quiz_name"
+        android:layout_alignEnd="@+id/quiz_name"
+        android:layout_marginBottom="9dp" />
+
+
+</RelativeLayout>

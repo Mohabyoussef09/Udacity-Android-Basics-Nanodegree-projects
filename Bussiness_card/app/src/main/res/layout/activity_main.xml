@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="mohab.com.bussiness_card.MainActivity">
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#C62828"
+        android:text="Zamalek Team Store" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zamalek_logo"
+        android:layout_below="@id/caption"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/zamalek_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_info"
+        android:layout_below="@id/zamalek_logo"
+        android:text="Contact Information:  "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_no"
+        android:layout_toRightOf="@id/contact_info"
+        android:layout_below="@id/zamalek_logo"
+        android:text="Phone Number:+02 2345678:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_below="@id/phone_no"
+        android:layout_toRightOf="@id/contact_info"
+        android:text="Email: zamalek_store@gmail.com"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adress"
+        android:layout_marginTop="10dp"
+        android:text="Adress:4th District 23/2"
+        android:layout_below="@id/email"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:layout_marginTop="10dp"
+        android:text="Description: This store consist of clothes of zamalek team"
+        android:layout_below="@id/adress"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hour"
+        android:layout_marginTop="10dp"
+        android:text="Hours of operation: from 9:00 AM to 10:00 PM"
+        android:layout_below="@id/desc"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_kit"
+        android:src="@drawable/home_kit"
+        android:layout_below="@id/hour"
+        android:layout_toLeftOf="@id/caption"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/away_kit"
+        android:layout_below="@id/hour"
+        android:layout_toRightOf="@id/caption"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>

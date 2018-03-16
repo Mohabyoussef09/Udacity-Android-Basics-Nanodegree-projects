@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Musical App</string>
+    <string name="main_screen_txt">Main Screen</string>
+    <string name="main_details_screen_txt">This is the main screen where you should choose one of the appearing items to open</string>
+    <string name="player_screen_txt">Player Screen</string>
+    <string name="player_details_screen_txt">This is the player song screen which describe the details of the running song</string>
+    <string name="playlist_screen_txt">PlayList Screen</string>
+    <string name="playlist_details_screen_txt">This screen show the playlists made by the user</string>
+    <string name="album_screen_txt">Albums Screen</string>
+    <string name="album_details_screen_txt">This screen show the albums saved in the device</string>
+    <string name="payment_screen_txt">Payment Screen</string>
+    <string name="payment_Details_screen_txt">The Android Pay API offers a quick and easy path to enable secure, one touch payments in your app using your existing payment infrastructure. Once you complete the integration with your apps payment processing flow, Android users will enjoy a rapid, consistent checkout process with Android Pay.
+    If you wish to:
+        Have Google process payments for you, or
+        Sell digital goods such as movies or games
+within your app, please use Google Play In-app Billing instead.
+If you\'re looking for in store payment options, please see our Android Pay In Store Merchant Center for more information.
+    </string>
+    <string name="mediaplayer_screen_txt">Media Player class Screen</string>
+    <string name="mediaplayer_Details_screen_txt">The Android multimedia framework includes support for playing variety of common media types, so that you can easily integrate audio, video and images into your applications. You can play audio or video from media files stored in your application\'s resources (raw resources), from standalone files in the filesystem, or from a data stream arriving over a network connection, all using MediaPlayer APIs.
+    </string>
+</resources>

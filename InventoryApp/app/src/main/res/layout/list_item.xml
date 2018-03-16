@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="200dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/prod_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:textColor="#EC407A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textColor="#E91E63"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textColor="#C2185B"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.4" />
+
+    <Button
+        android:id="@+id/dec_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:focusable="false"
+        android:gravity="center"
+        android:onClick="decrease_quality"
+        android:src="@mipmap/ic_launcher"
+        android:text="Sale" />
+
+</LinearLayout>
